@@ -1,9 +1,7 @@
-
-
 const Profile = () => {
-    return (
-        <div>
-             <div className="h-screen py-8 overflow-y-auto bg-gray-50 border-l border-r w-72 ">
+  return (
+    <div>
+      <div className="h-screen py-5 overflow-y-auto bg-gray-50 border-l border-r w-72 ">
         <div className="">
           <button className="flex items-center w-full ps-10 py-2 transition-colors duration-200  gap-x-2 focus:outline-none">
             <div className="relative">
@@ -73,8 +71,8 @@ const Profile = () => {
           </div>
         </div>
       </div>
-        </div>
-    );
+    </div>
+  );
 };
 
 export default Profile;

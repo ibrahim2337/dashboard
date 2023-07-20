@@ -3,7 +3,7 @@ const Homepage = () => {
     <div>
      
 
-      {/* <div className="">
+      <div className="">
         <aside className="flex flex-col items-center w-16 h-screen py-8 overflow-y-auto  border-r rtl:border-l rtl:border-r-0  ">
           <nav className="flex flex-col flex-1 space-y-6">
             <a
@@ -173,7 +173,7 @@ const Homepage = () => {
             </a>
           </div>
         </aside>
-      </div> */}
+      </div>
     </div>
   );
 };
