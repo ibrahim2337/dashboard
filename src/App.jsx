@@ -1,9 +1,12 @@
-import Homepage from "./components/HomePage/Homepage";
+
+import Navbar from "./components/Navbar/Navbar";
+import Profile from "./components/Profile/Profile";
 
 function App() {
   return (
     <div>
-      <Homepage />
+      <Navbar />
+      <Profile />
     </div>
   );
 }
